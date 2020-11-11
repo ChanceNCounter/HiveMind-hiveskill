@@ -12,7 +12,7 @@ class HiveSkill:
 
     author_name: str
     skill_name: str
-    actions: typing.Dict(int: str)  # Master tracks Node's Skill and Action
+    actions: typing.Dict[int, str]  # Master tracks Node's Skill and Action
     # dictionaries, so it can issue calls
     # to HiveSkill actions in the messaging
     # protocol, using the smallest int that
